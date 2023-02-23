@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06BA3EE048E82F40F5B47822 /* Pods_Baloot_BalootUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FD90DE8794F237A766CB8F /* Pods_Baloot_BalootUITests.framework */; };
+		1DF94276295DD3449877A2AA /* Pods_BalootTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53AD454EEF0ED911ACFCB50 /* Pods_BalootTests.framework */; };
+		60AF52331D98E228CBF0664F /* Pods_Baloot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5350CFDCF3C7B36FA76C564B /* Pods_Baloot.framework */; };
 		7028FE9A277E50E700538D7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028FE99277E50E700538D7C /* AppDelegate.swift */; };
 		7028FE9C277E50E700538D7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028FE9B277E50E700538D7C /* SceneDelegate.swift */; };
-		7028FE9E277E50E700538D7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028FE9D277E50E700538D7C /* ViewController.swift */; };
 		7028FEA1277E50E700538D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7028FE9F277E50E700538D7C /* Main.storyboard */; };
 		7028FEA3277E50E800538D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7028FEA2277E50E800538D7C /* Assets.xcassets */; };
 		7028FEA6277E50E800538D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7028FEA4277E50E800538D7C /* LaunchScreen.storyboard */; };
 		7028FEB1277E50E800538D7C /* BalootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028FEB0277E50E800538D7C /* BalootTests.swift */; };
 		7028FEBB277E50E800538D7C /* BalootUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028FEBA277E50E800538D7C /* BalootUITests.swift */; };
 		7028FEBD277E50E800538D7C /* BalootUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028FEBC277E50E800538D7C /* BalootUITestsLaunchTests.swift */; };
+		7028FECA277E51FF00538D7C /* Baloot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028FEC9277E51FF00538D7C /* Baloot.swift */; };
+		7028FED22782083D00538D7C /* ScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028FED12782083D00538D7C /* ScoreCell.swift */; };
+		7028FED427820C9100538D7C /* BalootCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028FED327820C9100538D7C /* BalootCalculator.swift */; };
+		7028FED82782646F00538D7C /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028FED72782646F00538D7C /* ResultCell.swift */; };
+		70A3D860278B5C3400517FC7 /* MyAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3D85F278B5C3400517FC7 /* MyAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		319CFB8D8D40C762A65DD62D /* Pods-BalootTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BalootTests.debug.xcconfig"; path = "Target Support Files/Pods-BalootTests/Pods-BalootTests.debug.xcconfig"; sourceTree = "<group>"; };
+		334FAA6552F9A3A9AF513082 /* Pods-Baloot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baloot.release.xcconfig"; path = "Target Support Files/Pods-Baloot/Pods-Baloot.release.xcconfig"; sourceTree = "<group>"; };
+		5350CFDCF3C7B36FA76C564B /* Pods_Baloot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baloot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7028FE96277E50E700538D7C /* Baloot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baloot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7028FE99277E50E700538D7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7028FE9B277E50E700538D7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7028FE9D277E50E700538D7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7028FEA0277E50E700538D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7028FEA2277E50E800538D7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7028FEA5277E50E800538D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		7028FEB6277E50E800538D7C /* BalootUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BalootUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7028FEBA277E50E800538D7C /* BalootUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalootUITests.swift; sourceTree = "<group>"; };
 		7028FEBC277E50E800538D7C /* BalootUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalootUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7028FEC9277E51FF00538D7C /* Baloot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baloot.swift; sourceTree = "<group>"; };
+		7028FED12782083D00538D7C /* ScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCell.swift; sourceTree = "<group>"; };
+		7028FED327820C9100538D7C /* BalootCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalootCalculator.swift; sourceTree = "<group>"; };
+		7028FED72782646F00538D7C /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		70A3D85F278B5C3400517FC7 /* MyAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlertViewController.swift; sourceTree = "<group>"; };
+		A1CA9F6B452805FDF260E100 /* Pods-Baloot-BalootUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baloot-BalootUITests.debug.xcconfig"; path = "Target Support Files/Pods-Baloot-BalootUITests/Pods-Baloot-BalootUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA26F6205F302AFF261F79DB /* Pods-BalootTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BalootTests.release.xcconfig"; path = "Target Support Files/Pods-BalootTests/Pods-BalootTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1849D38A4B7735D5C12949A /* Pods-Baloot-BalootUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baloot-BalootUITests.release.xcconfig"; path = "Target Support Files/Pods-Baloot-BalootUITests/Pods-Baloot-BalootUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1C5CF7637EE5507AC55FEC2 /* Pods-Baloot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baloot.debug.xcconfig"; path = "Target Support Files/Pods-Baloot/Pods-Baloot.debug.xcconfig"; sourceTree = "<group>"; };
+		F53AD454EEF0ED911ACFCB50 /* Pods_BalootTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BalootTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7FD90DE8794F237A766CB8F /* Pods_Baloot_BalootUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baloot_BalootUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60AF52331D98E228CBF0664F /* Pods_Baloot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF94276295DD3449877A2AA /* Pods_BalootTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06BA3EE048E82F40F5B47822 /* Pods_Baloot_BalootUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B79873C15E7DF6FA58A493D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5350CFDCF3C7B36FA76C564B /* Pods_Baloot.framework */,
+				F7FD90DE8794F237A766CB8F /* Pods_Baloot_BalootUITests.framework */,
+				F53AD454EEF0ED911ACFCB50 /* Pods_BalootTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7028FE8D277E50E600538D7C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +116,8 @@
 				7028FEAF277E50E800538D7C /* BalootTests */,
 				7028FEB9277E50E800538D7C /* BalootUITests */,
 				7028FE97277E50E700538D7C /* Products */,
+				1B79873C15E7DF6FA58A493D /* Frameworks */,
+				E6C64436A629EA8BBE20C78A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +134,9 @@
 		7028FE98277E50E700538D7C /* Baloot */ = {
 			isa = PBXGroup;
 			children = (
-				7028FE99277E50E700538D7C /* AppDelegate.swift */,
-				7028FE9B277E50E700538D7C /* SceneDelegate.swift */,
-				7028FE9D277E50E700538D7C /* ViewController.swift */,
+				704F4A3E27CD0980009D3E7E /* view */,
+				704F4A3D27CD0976009D3E7E /* modle */,
+				70A3D85F278B5C3400517FC7 /* MyAlertViewController.swift */,
 				7028FE9F277E50E700538D7C /* Main.storyboard */,
 				7028FEA2277E50E800538D7C /* Assets.xcassets */,
 				7028FEA4277E50E800538D7C /* LaunchScreen.storyboard */,
@@ -127,6 +162,47 @@
 			path = BalootUITests;
 			sourceTree = "<group>";
 		};
+		704F4A3D27CD0976009D3E7E /* modle */ = {
+			isa = PBXGroup;
+			children = (
+				7028FED12782083D00538D7C /* ScoreCell.swift */,
+				7028FED72782646F00538D7C /* ResultCell.swift */,
+			);
+			path = modle;
+			sourceTree = "<group>";
+		};
+		704F4A3E27CD0980009D3E7E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7028FE99277E50E700538D7C /* AppDelegate.swift */,
+				7028FE9B277E50E700538D7C /* SceneDelegate.swift */,
+				704F4A3F27CD0989009D3E7E /* viewController */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		704F4A3F27CD0989009D3E7E /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				7028FED327820C9100538D7C /* BalootCalculator.swift */,
+				7028FEC9277E51FF00538D7C /* Baloot.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		E6C64436A629EA8BBE20C78A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1C5CF7637EE5507AC55FEC2 /* Pods-Baloot.debug.xcconfig */,
+				334FAA6552F9A3A9AF513082 /* Pods-Baloot.release.xcconfig */,
+				A1CA9F6B452805FDF260E100 /* Pods-Baloot-BalootUITests.debug.xcconfig */,
+				B1849D38A4B7735D5C12949A /* Pods-Baloot-BalootUITests.release.xcconfig */,
+				319CFB8D8D40C762A65DD62D /* Pods-BalootTests.debug.xcconfig */,
+				AA26F6205F302AFF261F79DB /* Pods-BalootTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7028FEC0277E50E800538D7C /* Build configuration list for PBXNativeTarget "Baloot" */;
 			buildPhases = (
+				64E71E46A31077913FF156B2 /* [CP] Check Pods Manifest.lock */,
 				7028FE92277E50E700538D7C /* Sources */,
 				7028FE93277E50E700538D7C /* Frameworks */,
 				7028FE94277E50E700538D7C /* Resources */,
+				F77005C3E0C058A95550A8A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7028FEC3277E50E800538D7C /* Build configuration list for PBXNativeTarget "BalootTests" */;
 			buildPhases = (
+				FE17E818B98489BF12DEF3C4 /* [CP] Check Pods Manifest.lock */,
 				7028FEA8277E50E800538D7C /* Sources */,
 				7028FEA9277E50E800538D7C /* Frameworks */,
 				7028FEAA277E50E800538D7C /* Resources */,
@@ -169,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7028FEC6277E50E800538D7C /* Build configuration list for PBXNativeTarget "BalootUITests" */;
 			buildPhases = (
+				A419854AD3BB7F76B754DE2A /* [CP] Check Pods Manifest.lock */,
 				7028FEB2277E50E800538D7C /* Sources */,
 				7028FEB3277E50E800538D7C /* Frameworks */,
 				7028FEB4277E50E800538D7C /* Resources */,
+				A625A4A4366144CE88DD94A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +296,9 @@
 				Base,
 			);
 			mainGroup = 7028FE8D277E50E600538D7C;
+			packageReferences = (
+				70A3D861278B6F1800517FC7 /* XCRemoteSwiftPackageReference "CleanyModal" */,
+			);
 			productRefGroup = 7028FE97277E50E700538D7C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,14 +337,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64E71E46A31077913FF156B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Baloot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A419854AD3BB7F76B754DE2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Baloot-BalootUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A625A4A4366144CE88DD94A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baloot-BalootUITests/Pods-Baloot-BalootUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baloot-BalootUITests/Pods-Baloot-BalootUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Baloot-BalootUITests/Pods-Baloot-BalootUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F77005C3E0C058A95550A8A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baloot/Pods-Baloot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baloot/Pods-Baloot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Baloot/Pods-Baloot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE17E818B98489BF12DEF3C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BalootTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7028FE92277E50E700538D7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7028FE9E277E50E700538D7C /* ViewController.swift in Sources */,
 				7028FE9A277E50E700538D7C /* AppDelegate.swift in Sources */,
 				7028FE9C277E50E700538D7C /* SceneDelegate.swift in Sources */,
+				7028FED82782646F00538D7C /* ResultCell.swift in Sources */,
+				7028FED22782083D00538D7C /* ScoreCell.swift in Sources */,
+				7028FED427820C9100538D7C /* BalootCalculator.swift in Sources */,
+				7028FECA277E51FF00538D7C /* Baloot.swift in Sources */,
+				70A3D860278B5C3400517FC7 /* MyAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,17 +625,18 @@
 		};
 		7028FEC1277E50E800538D7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C5CF7637EE5507AC55FEC2 /* Pods-Baloot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DA42MCR9GG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Baloot/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,23 +647,24 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7028FEC2277E50E800538D7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 334FAA6552F9A3A9AF513082 /* Pods-Baloot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DA42MCR9GG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Baloot/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -482,12 +675,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		7028FEC4277E50E800538D7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 319CFB8D8D40C762A65DD62D /* Pods-BalootTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +701,7 @@
 		};
 		7028FEC5277E50E800538D7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA26F6205F302AFF261F79DB /* Pods-BalootTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +721,7 @@
 		};
 		7028FEC7277E50E800538D7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1CA9F6B452805FDF260E100 /* Pods-Baloot-BalootUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +739,7 @@
 		};
 		7028FEC8277E50E800538D7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1849D38A4B7735D5C12949A /* Pods-Baloot-BalootUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -598,6 +795,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		70A3D861278B6F1800517FC7 /* XCRemoteSwiftPackageReference "CleanyModal" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/loryhuz/CleanyModal";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 7028FE8E277E50E600538D7C /* Project object */;
 }
